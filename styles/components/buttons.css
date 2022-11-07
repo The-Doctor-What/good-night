@@ -1,0 +1,23 @@
+button {
+    background: #557afc;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+button:hover {
+    background: #EE4747;
+}
+
+button:active {
+    background: #12DD70;
+}
+
+button img {
+    filter: invert(100%);
+}

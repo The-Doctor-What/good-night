@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 2rem;
+    height: 5rem;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+header a, .mini-header a, .error-section a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+header a {
+    color: #111111;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.mini-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #557afc;
+    color: #ccc;
+    font-size: 3rem;
+    height: 25rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.mini-header a {
+    color: #f4f4f4;
+}
+
+.link:hover {
+    color: #557afc;
+}

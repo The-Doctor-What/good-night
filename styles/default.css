@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'open sans', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.center {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 0;
+}

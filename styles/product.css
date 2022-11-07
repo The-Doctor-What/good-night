@@ -1,0 +1,64 @@
+@import "pricing.css";
+@import "components/buttons.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    display: grid;
+    grid-template-areas:
+            "image info ."
+            "description description description";
+    font-size: 1.5rem;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+}
+
+.product-image {
+    grid-area: image;
+    border-radius: 14px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    flex-direction: column;
+}
+
+.product-image img {
+    border-radius: 14px;
+}
+
+.product-info {
+    grid-area: info;
+}
+
+.product-description {
+    grid-area: description;
+    margin: 20px;
+}
+
+.warning-text {
+    color: #FFAC2F;
+}
+
+.product-info>div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-info>div>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.discount-card {
+    margin-left: 20px;
+}

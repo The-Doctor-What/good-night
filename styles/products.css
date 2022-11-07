@@ -1,0 +1,40 @@
+@import "cards.css";
+@import "pricing.css";
+@import "components/buttons.css";
+@import "components/input.css";
+@import "components/select.css";
+
+.cards {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #557afc;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > h2 {
+    margin: 20px;
+    font-size: 3.5rem;
+}
+
+input {
+    width: 450px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

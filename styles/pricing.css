@@ -1,0 +1,15 @@
+.discount-card {
+    background: #EE4747;
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.price {
+    color: #12DD70;
+}

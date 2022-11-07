@@ -1,0 +1,9 @@
+@import "cards.css";
+
+.cards {
+    flex-direction: column;
+}
+
+.card p {
+    margin: 10px;
+}

@@ -1,0 +1,35 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.card {
+    border: #111111 1px solid;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 14px;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    padding: 20px;
+    align-content: space-between;
+}
+
+.footer-card, .header-card>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-card>img {
+    border-radius: 14px;
+}
+
+.buttons-card {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}

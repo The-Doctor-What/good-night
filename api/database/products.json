@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Grand Theft Auto V",
+    "description": "Эта игра может содержать контент, не подходящий для всех возрастов или для просмотра на работе: Контент для взрослых",
+    "detailedDescription": "Мультиплатформенная компьютерная игра в жанре action-adventure с открытым миром, разработанная компанией Rockstar North и изданная компанией Rockstar Games.",
+    "image": "gta-v",
+    "price": 256,
+    "discount": 0,
+    "rating": 4.5,
+    "age": 18,
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
+    "releaseDate": "2013-09-17",
+    "developer": "Rockstar North",
+    "publisher": "Rockstar Games",
+    "tags": [
+      "Action",
+      "Adventure",
+      "Open World",
+      "GTA",
+      "Grand Theft Auto",
+      "Rockstar",
+      "Rockstar Games",
+      "Rockstar North",
+      "PC",
+      "PS4",
+      "Xbox One"
+    ]
+  },
+  {
+    "name": "MineCraft",
+    "description": "Minecraft is a sandbox video game",
+    "detailedDescription": "Minecraft is a sandbox video game created by Swedish game developer Markus Persson and released by Mojang in 2011.",
+    "image": "minecraft",
+    "price": 1990,
+    "discount": 0,
+    "rating": 4.5,
+    "age": 7,
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One",
+      "Switch"
+    ],
+    "genres": [
+      "Adventure",
+      "Open World",
+      "Sandbox"
+    ],
+    "releaseDate": "2011-05-17",
+    "developer": "Mojang",
+    "publisher": "Mojang",
+    "tags": [
+      "Adventure",
+      "Open World",
+      "Sandbox",
+      "Minecraft",
+      "Mojang",
+      "PC",
+      "PS4",
+      "Xbox One",
+      "Switch"
+    ]
+  },
+  {
+    "name": "Far Cry 3",
+    "description": "Far Cry 3 is an open world first-person shooter",
+    "detailedDescription": "Far Cry 3 is an open world first-person shooter developed by Ubisoft Montreal and published by Ubisoft. It was released worldwide for the PlayStation 3, Xbox 360, and Microsoft Windows in November 2012, and for the Wii U in December 2012. It is the sequel to 2008's Far Cry 2, and the third main installment in the Far Cry series.",
+    "image": "far-cry-3",
+    "price": 100,
+    "discount": 75,
+    "rating": 4.5,
+    "age": 18,
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Open World"
+    ],
+    "releaseDate": "2012-11-29",
+    "developer": "Ubisoft Montreal",
+    "publisher": "Ubisoft"
+  },
+  {
+    "name": "Portal 2",
+    "description": "Portal 2 is a first-person puzzle-platform video game",
+    "detailedDescription": "Portal 2 is a first-person puzzle-platform video game developed and published by Valve Corporation. It was released in April 2011 for Microsoft Windows, OS X, PlayStation 3, and Xbox 360, in November 2011 for Linux, and in April 2015 for the Wii U. The game is the sequel to Portal (2007) and was released as part of The Orange Box in 2007 for Windows, OS X, Xbox 360, and PlayStation 3. The game was released as a standalone product for OS X and Linux in 2011, and for the Wii U in 2015.",
+    "image": "portal-2",
+    "price": 128,
+    "discount": 25,
+    "rating": 4.5,
+    "age": 16,
+    "platforms": [
+      "PC",
+      "PS3",
+      "Xbox 360"
+    ],
+    "genres": [
+      "Puzzle",
+      "Platformer"
+    ],
+    "releaseDate": "2011-04-19",
+    "developer": "Valve",
+    "publisher": "Valve"
+  },
+  {
+    "name": "TearDown",
+    "description": "TearDown is a demolition derby racing game",
+    "detailedDescription": "TearDown is a demolition derby racing game developed by Bugbear Entertainment and published by THQ Nordic. It was released for Microsoft Windows, PlayStation 4, and Xbox One on 5 December 2018.",
+    "image": "teardown",
+    "price": 480,
+    "discount": 0,
+    "rating": 4.5,
+    "age": 16,
+    "platforms": [
+      "PC",
+      "PS4",
+      "Xbox One"
+    ],
+    "genres": [
+      "Racing",
+      "Action"
+    ],
+    "releaseDate": "2018-12-05",
+    "developer": "Bugbear Entertainment",
+    "publisher": "THQ Nordic"
+  }
+]

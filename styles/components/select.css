@@ -1,0 +1,21 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    color: #555;
+    display: block;
+    font-size: 16px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    line-height: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+    select {
+        background: #111111;
+        color: #f4f4f4;
+        border: 1px solid #f4f4f4;
+    }
+}
