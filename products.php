@@ -1,5 +1,5 @@
 <?php
-$products = json_decode(file_get_contents('https://gameshop.mentor4u.ru/api/send_data?table=products'), true);
+$products = json_decode(file_get_contents('https://goodnight.mentor4u.ru/api/send_data?table=products'), true);
 
 if (isset($products['status'])) {
     $title = 'Ошибка';
@@ -49,16 +49,6 @@ require 'components/header.php';
         <br>
         <br>
         <h2>Товары нашего магазина</h2>
-        <section class="search">
-            <select name="platform" id="platform">
-                <option value="all">Все платформы</option>
-                <option value="pc">PC</option>
-                <option value="xbox">Xbox</option>
-                <option value="playstation">PlayStation</option>
-                <option value="nintendo">Nintendo</option>
-            </select>
-            <input type="text" placeholder="Поиск">
-        </section>
         <section class="cards">
             <?php echo $productList; ?>
         </section>

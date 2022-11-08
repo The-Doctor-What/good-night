@@ -5,7 +5,7 @@ if (!isset($id)) {
     error404('Не указан ID', 'Не указан ID');
 }
 
-$product = json_decode(file_get_contents('https://gameshop.mentor4u.ru/api/send_data?table=products&row=' . $id), true);
+$product = json_decode(file_get_contents('https://goodnight.mentor4u.ru/api/send_data?table=products&row=' . $id), true);
 
 if (isset($product['status'])) {
     error404('Товар не найден', 'Товар не найден');

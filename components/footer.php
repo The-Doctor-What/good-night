@@ -14,8 +14,8 @@ if (!isset($scripts)) {
 <br>
 <br>
 <footer>
-    <div class="footer-copyrate">
-        <p>© 2022, <a href="/about">Game Shop</a> все права защищены</p>
+    <div class="footer-cooperate">
+        <p>© 2022, <a href="/about">Good Night</a> все права защищены</p>
     </div>
 </footer>
 <?php echo $scripts; ?>
